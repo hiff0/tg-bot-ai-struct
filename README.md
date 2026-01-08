@@ -18,8 +18,8 @@ Generate keys
 
 ## Релиз
 ```bash
-docker build -t girl-bot -f ./.docker/prod/Dockerfile .
-docker tag girl-bot hiff/girl-bot:<tag>
-docker push hiff/girl-bot:<tag>
+docker build -t <image-name> -f ./.docker/prod/Dockerfile .
+docker tag <image-name> <login>/<image-name>:<tag>
+docker push <login>/<image-name>:<tag>
 ```
 

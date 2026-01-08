@@ -1,0 +1,11 @@
+node_modules
+.env
+.git
+.gitignore
+*.md
+!README.md
+scripts
+.docker
+dist
+test.ts
+
