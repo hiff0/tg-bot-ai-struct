@@ -1,0 +1,17 @@
+networks:
+  bot_network:
+    external: true
+
+services:
+  bot-girl:
+    build:
+      context: .
+      dockerfile: .docker/dev/Dockerfile
+    networks:
+      - bot_network
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    restart: unless-stopped
+

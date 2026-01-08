@@ -1,0 +1,11 @@
+{
+  "messages": {
+    "ru": {
+      "start_message": "Привет 👋 Я — Girl Bot."
+    }
+  },
+  "keyboardMessages": {
+    "ru": {}
+  }
+}
+
