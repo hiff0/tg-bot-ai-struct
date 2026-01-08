@@ -1,4 +1,4 @@
-# Girl Bot
+# Bot template
 
 ## Быстрый старт
 
